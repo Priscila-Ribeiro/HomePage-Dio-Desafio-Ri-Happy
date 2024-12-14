@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spicy+Rice&family=Suez+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: #000;
+  color: white;
+  font-family: Raleway;
+  font-size: 1.6rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.878rem;
+}
+
+.container {
+  opacity: 90%;
+}
+
+.banner-cabecalho,
+.divisao-cont,
+.caixa-flex,
+.modulos,
+.secao-transforme,
+.secao-evolua,
+.img-evolua,
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner {
+  width: 50%;
+  height: 23.7rem;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url(./IMG/Banner\ Content.png), url(./IMG/image\ 2.png);
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 3rem;
+  background: linear-gradient(180deg, #33a8db 0%, #1472b7 100%);
+  background-size: 400% 100%;
+  /* coloca gradiente no texto  */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.18rem;
+  letter-spacing: 0.19em;
+  text-align: left;
+  color: #33a8db;
+}
+
+h3 {
+  width: 17rem;
+  font-size: 2.8rem;
+  line-height: 2.7rem;
+}
+#texto-banner {
+  width: 52rem;
+  height: 4.6rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.48rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.botao {
+  & a {
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1.878rem;
+    background: transparent;
+    color: #31a8dd;
+    text-align: center;
+    letter-spacing: 0.1rem;
+  }
+
+  padding: 1rem;
+  border: 0.16rem solid;
+  border-image-source: linear-gradient(180deg, #3ba1cd 0%, #1572b7 100%);
+  border-image-slice: 1;
+  border-image-repeat: repeat;
+}
+
+.divisao-cont {
+  width: 106rem;
+  height: 0;
+  margin: 5rem auto;
+  border: 0.01rem solid #33a8db;
+  text-align: center;
+}
+
+.modulos {
+  width: 79.2rem;
+  height: 32.5rem;
+  top: 72.3rem;
+  left: 32.4rem;
+  gap: 2rem;
+
+  & #paragrafo-h2 {
+    text-align: center;
+  }
+
+  & .realce {
+    color: #3ba1cd;
+  }
+
+  & .container-modulos {
+    width: 53.5rem;
+    height: 5.1rem;
+    border-radius: 5.7rem;
+    border: 0.1rem solid #33a8db;
+    text-align: center;
+  }
+}
+.secao-transforme {
+  width: auto;
+  & img {
+    border-width: 0.1rem 0.1rem 0.1rem 0;
+    border-color: #33a8db;
+    border-style: solid;
+  }
+  & h3 {
+    position: absolute;
+    background: transparent;
+    translate: -31rem 0.01rem;
+    text-shadow: 0.3rem 0.2rem 0 #33a8db;
+  }
+}
+.secao-evolua h2 {
+  width: 76rem;
+  height: 7.6rem;
+  text-align: center;
+  font-weight: 70rem;
+  line-height: 3.7rem;
+  margin: 6rem;
+}
+.img-evolua {
+  margin: 3.2rem;
+
+  & #conteudo-evolua {
+    width: 79.2rem;
+    text-align: center;
+    margin: 4rem;
+  }
+}
+.linha-rodape {
+  width: 100%;
+  height: 0rem;
+  border: 0.01rem solid #33a8db;
+  text-align: center;
+}
+
+.rodape {
+  margin: 5.9rem;
+  & #paragrafo-rodape {
+    width: 25.9rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  & .realce-rodape {
+    color: #33a8db;
+  }
+}
